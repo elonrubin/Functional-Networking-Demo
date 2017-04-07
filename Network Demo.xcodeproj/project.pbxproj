@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EAFEF66CC2B4C6A71620D64 /* Pods_Network_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AF33CF6D181A9BB43F6544 /* Pods_Network_Demo.framework */; };
 		EF974B5E1E93AE600077D62F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF974B5D1E93AE600077D62F /* AppDelegate.swift */; };
-		EF974B601E93AE600077D62F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF974B5F1E93AE600077D62F /* ViewController.swift */; };
+		EF974B601E93AE600077D62F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF974B5F1E93AE600077D62F /* FeedViewController.swift */; };
 		EF974B631E93AE600077D62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF974B611E93AE600077D62F /* Main.storyboard */; };
 		EF974B651E93AE600077D62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF974B641E93AE600077D62F /* Assets.xcassets */; };
 		EF974B681E93AE600077D62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF974B661E93AE600077D62F /* LaunchScreen.storyboard */; };
+		EF974B711E93B2FF0077D62F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF974B6F1E93B2FF0077D62F /* Post.swift */; };
+		EF974B721E93B2FF0077D62F /* Post Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF974B701E93B2FF0077D62F /* Post Manager.swift */; };
+		EF974B741E93BAAD0077D62F /* TextPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF974B731E93BAAD0077D62F /* TextPostTableViewCell.swift */; };
+		EF974B781E93F1820077D62F /* ImagePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF974B771E93F1820077D62F /* ImagePostTableViewCell.swift */; };
+		EFAEC9BA1E940B10005A9FCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAEC9B91E940B10005A9FCC /* WebViewController.swift */; };
+		EFAEC9BC1E94147F005A9FCC /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAEC9BB1E94147F005A9FCC /* FullScreenImageViewController.swift */; };
+		EFB3B01F1E943389003C7FAA /* View Controller Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3B01E1E943389003C7FAA /* View Controller Constructor.swift */; };
+		EFB3B0211E943B0C003C7FAA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EFB3B0201E943B0C003C7FAA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D9E20BBB2B20DB8A2024ED6 /* Pods-Network Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Network Demo/Pods-Network Demo.release.xcconfig"; sourceTree = "<group>"; };
+		914008F3E239E3050992BECF /* Pods-Network Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Network Demo/Pods-Network Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A4AF33CF6D181A9BB43F6544 /* Pods_Network_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Network_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF974B5A1E93AE600077D62F /* Network Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF974B5D1E93AE600077D62F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF974B5F1E93AE600077D62F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF974B5F1E93AE600077D62F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		EF974B621E93AE600077D62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF974B641E93AE600077D62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF974B671E93AE600077D62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF974B691E93AE600077D62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF974B6F1E93B2FF0077D62F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		EF974B701E93B2FF0077D62F /* Post Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Post Manager.swift"; sourceTree = "<group>"; };
+		EF974B731E93BAAD0077D62F /* TextPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextPostTableViewCell.swift; sourceTree = "<group>"; };
+		EF974B771E93F1820077D62F /* ImagePostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePostTableViewCell.swift; sourceTree = "<group>"; };
+		EFAEC9B91E940B10005A9FCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		EFAEC9BB1E94147F005A9FCC /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
+		EFB3B01E1E943389003C7FAA /* View Controller Constructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View Controller Constructor.swift"; sourceTree = "<group>"; };
+		EFB3B0201E943B0C003C7FAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAFEF66CC2B4C6A71620D64 /* Pods_Network_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				EF974B5C1E93AE600077D62F /* Network Demo */,
 				EF974B5B1E93AE600077D62F /* Products */,
+				F9B58797CE6B570A4E91C4EE /* Pods */,
+				F9BD7588E1EC1A28F34A759F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,71 @@
 		EF974B5C1E93AE600077D62F /* Network Demo */ = {
 			isa = PBXGroup;
 			children = (
-				EF974B5D1E93AE600077D62F /* AppDelegate.swift */,
-				EF974B5F1E93AE600077D62F /* ViewController.swift */,
-				EF974B611E93AE600077D62F /* Main.storyboard */,
-				EF974B641E93AE600077D62F /* Assets.xcassets */,
-				EF974B661E93AE600077D62F /* LaunchScreen.storyboard */,
-				EF974B691E93AE600077D62F /* Info.plist */,
+				EFB3B01A1E943313003C7FAA /* Model */,
+				EFB3B01B1E943328003C7FAA /* Views */,
+				EFB3B01C1E943334003C7FAA /* View Controllers */,
+				EFB3B01D1E943347003C7FAA /* Assets */,
 			);
 			path = "Network Demo";
+			sourceTree = "<group>";
+		};
+		EFB3B01A1E943313003C7FAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF974B6F1E93B2FF0077D62F /* Post.swift */,
+				EF974B701E93B2FF0077D62F /* Post Manager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EFB3B01B1E943328003C7FAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF974B611E93AE600077D62F /* Main.storyboard */,
+				EF974B661E93AE600077D62F /* LaunchScreen.storyboard */,
+				EF974B731E93BAAD0077D62F /* TextPostTableViewCell.swift */,
+				EF974B771E93F1820077D62F /* ImagePostTableViewCell.swift */,
+				EFB3B01E1E943389003C7FAA /* View Controller Constructor.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EFB3B01C1E943334003C7FAA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF974B5F1E93AE600077D62F /* FeedViewController.swift */,
+				EFAEC9BB1E94147F005A9FCC /* FullScreenImageViewController.swift */,
+				EFAEC9B91E940B10005A9FCC /* WebViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EFB3B01D1E943347003C7FAA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3B0201E943B0C003C7FAA /* README.md */,
+				EF974B5D1E93AE600077D62F /* AppDelegate.swift */,
+				EF974B641E93AE600077D62F /* Assets.xcassets */,
+				EF974B691E93AE600077D62F /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F9B58797CE6B570A4E91C4EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				914008F3E239E3050992BECF /* Pods-Network Demo.debug.xcconfig */,
+				3D9E20BBB2B20DB8A2024ED6 /* Pods-Network Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9BD7588E1EC1A28F34A759F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF33CF6D181A9BB43F6544 /* Pods_Network_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF974B6C1E93AE600077D62F /* Build configuration list for PBXNativeTarget "Network Demo" */;
 			buildPhases = (
+				753AA5CB0DDCDF6A457439BA /* [CP] Check Pods Manifest.lock */,
 				EF974B561E93AE600077D62F /* Sources */,
 				EF974B571E93AE600077D62F /* Frameworks */,
 				EF974B581E93AE600077D62F /* Resources */,
+				A7A3BFF09377AF2A9335DFF6 /* [CP] Embed Pods Frameworks */,
+				A9339EC2021F95A6385597A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +215,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		753AA5CB0DDCDF6A457439BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A3BFF09377AF2A9335DFF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Network Demo/Pods-Network Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9339EC2021F95A6385597A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Network Demo/Pods-Network Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF974B561E93AE600077D62F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF974B601E93AE600077D62F /* ViewController.swift in Sources */,
+				EFB3B01F1E943389003C7FAA /* View Controller Constructor.swift in Sources */,
+				EF974B721E93B2FF0077D62F /* Post Manager.swift in Sources */,
+				EFB3B0211E943B0C003C7FAA /* README.md in Sources */,
+				EF974B711E93B2FF0077D62F /* Post.swift in Sources */,
+				EF974B741E93BAAD0077D62F /* TextPostTableViewCell.swift in Sources */,
+				EF974B781E93F1820077D62F /* ImagePostTableViewCell.swift in Sources */,
+				EF974B601E93AE600077D62F /* FeedViewController.swift in Sources */,
 				EF974B5E1E93AE600077D62F /* AppDelegate.swift in Sources */,
+				EFAEC9BA1E940B10005A9FCC /* WebViewController.swift in Sources */,
+				EFAEC9BC1E94147F005A9FCC /* FullScreenImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +396,12 @@
 		};
 		EF974B6D1E93AE600077D62F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914008F3E239E3050992BECF /* Pods-Network Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U7QG5FXY5E;
 				INFOPLIST_FILE = "Network Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsi.Network-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +411,12 @@
 		};
 		EF974B6E1E93AE600077D62F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E20BBB2B20DB8A2024ED6 /* Pods-Network Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U7QG5FXY5E;
 				INFOPLIST_FILE = "Network Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsi.Network-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +443,7 @@
 				EF974B6E1E93AE600077D62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
